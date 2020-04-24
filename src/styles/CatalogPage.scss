@@ -1,0 +1,22 @@
+.Catalog {
+  display: flex;
+  min-height: 100vh;
+
+  .column-left {
+    position: relative;
+    width: 25%;
+    height: 100%;
+  }
+
+  .column-right {
+    width: 75%;
+  }
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  h2 {
+    text-align: center;
+    margin: 10px auto;
+  }
+}

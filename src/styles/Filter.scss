@@ -1,0 +1,50 @@
+.Filter {
+  top: 0;
+  left: 0;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  margin-right: 10px;
+  box-shadow: 3px 3px 10px rgba(128, 128, 128, 0.4);
+
+  h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 15px auto;
+  }
+  h4 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  .clear {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(238, 0, 0);
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+    border: none;
+  }
+
+  .clear:hover {
+    background-color: red;
+  }
+  .search-bar {
+    position: relative;
+    margin-top: 40px;
+  }
+  .search-input {
+    font-family: "Catamaran", sans-serif;
+    padding: 5px;
+    width: calc(100% - 15px);
+    font-size: 1.3rem;
+    border-radius: 10px;
+    border: 1px solid gray;
+    outline: none;
+  }
+}

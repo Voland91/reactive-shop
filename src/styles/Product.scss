@@ -1,0 +1,59 @@
+.product {
+  width: 25%;
+  background: white;
+  margin: 0 1% 2%;
+  text-align: center;
+  flex: 1 0 23%;
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 260px;
+  box-shadow: 3px 3px 10px rgba(128, 128, 128, 0.4);
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.product img {
+  display: block;
+  width: 85%;
+  height: auto;
+  margin: 0 auto;
+  transition: 0.4s;
+  padding-top: 10px;
+}
+.product:hover {
+  box-shadow: 3px 3px 10px #0b102b69;
+  img {
+    transform: scale(1.1);
+  }
+}
+
+.product p.price {
+  display: inline-block;
+  font-size: 24px;
+  line-height: 28px;
+  color: #00a1b4;
+  padding: 3px 0px;
+  margin: 10px auto;
+}
+
+.product h3 {
+  font-size: 1.4rem;
+  margin: 5px auto;
+}
+
+.product button {
+  font-family: "Catamaran", sans-serif;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+  margin: 15px auto;
+  background-color: rgb(81, 156, 218);
+  color: white;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.product button:hover {
+  background-color: rgb(24, 129, 216);
+}

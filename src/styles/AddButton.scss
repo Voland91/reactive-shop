@@ -1,0 +1,16 @@
+.addButton button {
+  font-family: "Catamaran", sans-serif;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+  margin: 15px auto;
+  background-color: rgb(81, 156, 218);
+  color: white;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.addButton button:hover {
+  background-color: rgb(24, 129, 216);
+}

@@ -1,0 +1,13 @@
+.empty_cart_container {
+  position: relative;
+  h3 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  .cart_icon {
+    font-size: 400px;
+    color: rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transform: translateX(-2%);
+  }
+}
