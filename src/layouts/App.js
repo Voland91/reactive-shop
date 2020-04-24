@@ -16,8 +16,8 @@ class App extends Component {
       <Provider store={store}>
         <Router>
           <div className="App">
-            <nav>{<Navigation {...this.props} />}</nav>
-            <main>{<Page {...this.props} />}</main>
+            <nav>{<Navigation />}</nav>
+            <main>{<Page />}</main>
             <footer>{<Footer />}</footer>
           </div>
         </Router>
