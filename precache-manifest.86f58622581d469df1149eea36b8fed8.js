@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5f5fefbcc984f8ebf93315b13fb98d1d",
+    "revision": "879586cfcaf2aef2ffbb45064657919e",
     "url": "/reactive-shop/index.html"
   },
   {
-    "revision": "c43c7ae5e5fcf41e213e",
+    "revision": "71a9cf01b5cccf16ad29",
     "url": "/reactive-shop/static/css/main.ae1169e6.chunk.css"
   },
   {
-    "revision": "4efbf4415456de7e8831",
-    "url": "/reactive-shop/static/js/2.4680e564.chunk.js"
+    "revision": "353522975a7bf9cefb95",
+    "url": "/reactive-shop/static/js/2.667f8529.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/reactive-shop/static/js/2.4680e564.chunk.js.LICENSE.txt"
+    "url": "/reactive-shop/static/js/2.667f8529.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c43c7ae5e5fcf41e213e",
-    "url": "/reactive-shop/static/js/main.391f58ba.chunk.js"
+    "revision": "71a9cf01b5cccf16ad29",
+    "url": "/reactive-shop/static/js/main.d1d92e18.chunk.js"
   },
   {
     "revision": "39ec7b3591a5983d2641",
