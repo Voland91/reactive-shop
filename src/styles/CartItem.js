@@ -32,7 +32,7 @@ export const ItemWrapper = styled.div`
     position: absolute;
     right: -100px;
     span {
-      margin-left: -80px;
+      margin-left: -90px;
       margin-top: 20px;
     }
   }

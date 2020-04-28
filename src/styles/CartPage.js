@@ -29,6 +29,7 @@ export const CartHeader = styled.div`
 `;
 
 export const CartFooter = styled.div`
+  position: relative;
   width: 35%;
   background-color: white;
   margin-left: 65%;
@@ -39,9 +40,23 @@ export const CartFooter = styled.div`
   font-weight: bold;
   text-align: center;
 
-  span {
+  .cost span {
     font-size: 2rem;
     color: green;
     margin-left: 10px;
+  }
+  .clear_cart {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: normal;
+    font-size: 1rem;
+
+    .trash {
+      font-size: 1.7rem;
+      opacity: 0.2;
+      transition: 0.4s;
+      cursor: pointer;
+    }
   }
 `;

@@ -6,11 +6,11 @@ export const Tooltip = styled.div`
 
   span {
     visibility: hidden;
-    width: 60px;
+    width: 80px;
     top: 100%;
     left: 50%;
-    margin-left: -30px;
-    background-color: rgba(0, 0, 0, 0.8);
+    margin-left: -40px;
+    background-color: rgba(0, 0, 0, 0.7);
     color: #fff;
     text-align: center;
     padding: 3px 0;

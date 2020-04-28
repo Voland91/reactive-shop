@@ -1,4 +1,9 @@
-import { INCREASE_QUANTITY, DECREASE_QUANTITY, CLEAR_PRODUCT } from "./types";
+import {
+  INCREASE_QUANTITY,
+  DECREASE_QUANTITY,
+  CLEAR_PRODUCT,
+  CLEAR_BASKET,
+} from "./types";
 
 export const productQuantity = (action, name) => {
   return (dispatch) => {
@@ -14,6 +19,15 @@ export const clearProduct = (name) => {
     dispatch({
       type: CLEAR_PRODUCT,
       payload: name,
+    });
+  };
+};
+
+export const clearBasket = () => {
+  console.log("clearing the cart");
+  return (dispatch) => {
+    dispatch({
+      type: CLEAR_BASKET,
     });
   };
 };

@@ -4,6 +4,7 @@ import {
   INCREASE_QUANTITY,
   DECREASE_QUANTITY,
   CLEAR_PRODUCT,
+  CLEAR_BASKET,
 } from "../actions/types";
 
 import ItemsService from "../services/ItemsService";
@@ -93,6 +94,11 @@ export default (state = initialState, action) => {
         },
       };
 
+    case CLEAR_BASKET:
+      return {
+        ...state,
+        ...initialState,
+      };
     default:
       return state;
   }

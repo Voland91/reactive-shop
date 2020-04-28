@@ -3,8 +3,12 @@ import CartItem from "../components/CartItem";
 import { connect } from "react-redux";
 import { Cart, CartHeader, CartFooter } from "../styles/CartPage";
 import CartEmpty from "../components/CartEmpty";
+import { clearBasket } from "../actions/productQuantity";
+import { Tooltip } from "../styles/Tooltip.js";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faTrash } from "@fortawesome/free-solid-svg-icons";
 
-const CartPage = ({ basketProps }) => {
+const CartPage = ({ basketProps, clearBasket }) => {
   let productsInCart = [];
   const total = basketProps.cartCost.toFixed(2);
 
@@ -37,9 +41,21 @@ const CartPage = ({ basketProps }) => {
         </CartHeader>
         <div>{productsInCart}</div>
         <CartFooter>
-          <p>
-            Total cost: <span>{total}$</span>
-          </p>
+          <div className="cost">
+            <p>
+              Total cost: <span>{total}$</span>
+            </p>
+          </div>
+          <div className="clear_cart">
+            <Tooltip>
+              <FontAwesomeIcon
+                className="trash"
+                icon={faTrash}
+                onClick={() => clearBasket()}
+              />
+              <span>Clear cart</span>
+            </Tooltip>
+          </div>
         </CartFooter>
       </Cart>
     );
@@ -52,4 +68,4 @@ const mapStateToProps = (state) => ({
   basketProps: state.basketState,
 });
 
-export default connect(mapStateToProps)(CartPage);
+export default connect(mapStateToProps, { clearBasket })(CartPage);
