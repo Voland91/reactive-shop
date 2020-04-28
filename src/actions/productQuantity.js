@@ -24,7 +24,6 @@ export const clearProduct = (name) => {
 };
 
 export const clearBasket = () => {
-  console.log("clearing the cart");
   return (dispatch) => {
     dispatch({
       type: CLEAR_BASKET,

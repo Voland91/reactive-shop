@@ -42,17 +42,15 @@ const featuredTablets = tablets.map((product) => (
 
 const HomePage = () => {
   return (
-    <div className="HomePage">
-      <div className="container">
-        <h1 className="header-big">
-          Welcome to our <TextInt>(reactive)</TextInt> store
-          <TextInt> ...with redux state management</TextInt>
-        </h1>
-        <Featured>Desktops</Featured>
-        <Products>{featuredDesktops}</Products>
-        <Featured>Tablets</Featured>
-        <Products>{featuredTablets}</Products>
-      </div>
+    <div className="container">
+      <h1 className="header-big">
+        Welcome to our <TextInt>(reactive)</TextInt> store
+        <TextInt> ...with redux state management</TextInt>
+      </h1>
+      <Featured>Desktops</Featured>
+      <Products>{featuredDesktops}</Products>
+      <Featured>Tablets</Featured>
+      <Products>{featuredTablets}</Products>
     </div>
   );
 };

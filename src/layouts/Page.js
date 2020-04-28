@@ -5,6 +5,8 @@ import CatalogPage from "../pages/CatalogPage";
 import AboutPage from "../pages/AboutPage";
 import ContactPage from "../pages/ContactPage";
 import CartPage from "../pages/CartPage";
+import OrderPage from "../pages/OrderPage";
+import ProductPage from "../pages/ProductPage";
 
 const Page = () => {
   return (
@@ -15,6 +17,8 @@ const Page = () => {
         <Route path="/about" component={AboutPage} />
         <Route path="/contact" component={ContactPage} />
         <Route path="/cart" component={CartPage} />
+        <Route path="/product/:id" component={ProductPage} />
+        <Route path="/order" component={OrderPage} />
         {/* <Route path="/product/:id" component={ProductPage} /> */}
         {/* <Route path="/admin" component={AdminPage} /> */}
         {/* <Route path="/login" component={LoginPage} /> */}

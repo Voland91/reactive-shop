@@ -1,7 +1,9 @@
 import React from "react";
 import CartItem from "../components/CartItem";
+import { Link } from "react-router-dom";
+
 import { connect } from "react-redux";
-import { Cart, CartHeader, CartFooter } from "../styles/CartPage";
+import { Cart, CartHeader, CartFooter, OrderButton } from "../styles/CartPage";
 import CartEmpty from "../components/CartEmpty";
 import { clearBasket } from "../actions/productQuantity";
 import { Tooltip } from "../styles/Tooltip.js";
@@ -57,6 +59,12 @@ const CartPage = ({ basketProps, clearBasket }) => {
             </Tooltip>
           </div>
         </CartFooter>
+        <Link
+          to="/order"
+          style={{ color: "inherit", textDecoration: "inherit" }}
+        >
+          <OrderButton onClick={() => clearBasket()}>Buy Now</OrderButton>
+        </Link>
       </Cart>
     );
   };

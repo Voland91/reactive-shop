@@ -31,6 +31,7 @@ export const ItemWrapper = styled.div`
   .cart_trash {
     position: absolute;
     right: -100px;
+
     span {
       margin-left: -90px;
       margin-top: 20px;

@@ -24,6 +24,10 @@ class ItemsService {
   static getCartObjects() {
     return result;
   }
+
+  static getProductById(id) {
+    return products.filter((p) => p.id === id);
+  }
 }
 
 export default ItemsService;

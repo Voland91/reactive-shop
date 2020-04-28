@@ -49,7 +49,7 @@ const CartItem = ({
           icon={faTrashAlt}
           onClick={() => clearProduct(name)}
         />
-        <span>Delete</span>
+        <span>Remove</span>
       </Tooltip>
     </ItemWrapper>
   );

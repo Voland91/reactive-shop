@@ -1,14 +1,23 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import Product from "../components/Product";
+import ProductDetails from "../components/ProductDetails";
+import { Container } from "../styles/OrderPage";
+
+import ItemsService from "../services/ItemsService";
 
 const ProductPage = ({ match }) => {
+  const product = ItemsService.getProductById(match.params.id);
+  const { name, amount, category, image, manufacture } = product[0];
+
   return (
-    <>
-      <div>Strona produktu</div>
-      <Product id={match.params.id} />
-      <Link to="/products">Powrót do listy produktów</Link>
-    </>
+    <Container>
+      <ProductDetails
+        name={name}
+        amount={amount}
+        category={category}
+        image={image}
+        manufacture={manufacture}
+      />
+    </Container>
   );
 };
 
