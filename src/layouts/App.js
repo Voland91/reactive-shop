@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 
 import { Provider } from "react-redux";
 import store from "../store";
@@ -13,15 +13,15 @@ import "../styles/App.scss";
 class App extends Component {
   render() {
     return (
-      <Provider store={store}>
-        <Router basename={process.env.PUBLIC_URL}>
+      <HashRouter basename={process.env.PUBLIC_URL}>
+        <Provider store={store}>
           <div className="App">
             <nav>{<Navigation />}</nav>
             <main>{<Page />}</main>
             <footer>{<Footer />}</footer>
           </div>
-        </Router>
-      </Provider>
+        </Provider>
+      </HashRouter>
     );
   }
 }

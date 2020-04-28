@@ -2,14 +2,15 @@ import styled from "styled-components";
 
 export const ItemWrapper = styled.div`
   height: 150px;
-  background-color: white;
   margin: 10px 0;
+  position: relative;
+  background-color: white;
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  border-radius: 10px 10px 10px 10px;
+  border-radius: 10px;
   box-shadow: 3px 3px 10px rgba(128, 128, 128, 0.4);
-  overflow: hidden;
+  flex-grow: 1;
 
   .item_img {
     height: 140px;
@@ -26,11 +27,35 @@ export const ItemWrapper = styled.div`
     max-height: 100%;
     max-width: 90%;
   }
+
+  .cart_trash {
+    position: absolute;
+    right: -100px;
+    span {
+      margin-left: -80px;
+      margin-top: 20px;
+    }
+  }
+
+  .trash {
+    position: absolute;
+    top: 50%;
+    right: 40px;
+    transform: translateY(-50%);
+    font-size: 1.7rem;
+    opacity: 0.2;
+    transition: 0.4s;
+    cursor: pointer;
+
+    &:hover {
+      opacity: 0.7;
+      color: red;
+    }
+  }
 `;
 
 export const Numbers = styled.div`
   flex-basis: 70%;
-
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -42,6 +67,11 @@ export const Numbers = styled.div`
 
   .total {
     font-weight: bold;
+    transform: translateX(-7px);
+  }
+  .operators {
+    position: relative;
+    min-width: 60px;
   }
 `;
 
@@ -55,7 +85,7 @@ export const Product = styled.div`
 `;
 
 export const Button = styled.button`
-  position: relative;
+  position: absolute;
   border: none;
   width: 25px;
   height: 25px;
@@ -69,14 +99,14 @@ export const Button = styled.button`
 
   &.btn_decrease {
     position: absolute;
-    left: 57%;
+    left: -10px;
     &:hover {
       background-color: #fa6472;
     }
   }
   &.btn_increase {
     position: absolute;
-    left: 62%;
+    right: -10px;
     &:hover {
       background-color: #7aea7a;
     }
