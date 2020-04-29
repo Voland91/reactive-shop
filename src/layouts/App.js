@@ -6,7 +6,7 @@ import store from "../store";
 
 import Navigation from "./Navigation";
 import Page from "./Page";
-import Footer from "./Footer";
+// import Footer from "./Footer";
 
 import "../styles/App.scss";
 
@@ -18,7 +18,7 @@ class App extends Component {
           <div className="App">
             <nav>{<Navigation />}</nav>
             <main>{<Page />}</main>
-            <footer>{<Footer />}</footer>
+            {/* <footer>{<Footer />}</footer> */}
           </div>
         </Provider>
       </HashRouter>

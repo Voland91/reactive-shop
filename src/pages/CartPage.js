@@ -2,6 +2,8 @@ import React from "react";
 import CartItem from "../components/CartItem";
 import { Link } from "react-router-dom";
 
+import AbsoluteWrapper from "../components/AbsoluteWrapper";
+
 import { connect } from "react-redux";
 import { Cart, CartHeader, CartFooter, OrderButton } from "../styles/CartPage";
 import CartEmpty from "../components/CartEmpty";
@@ -69,7 +71,11 @@ const CartPage = ({ basketProps, clearBasket }) => {
     );
   };
 
-  return <>{total > 0 ? <CartFilled /> : <CartEmpty />}</>;
+  return (
+    <AbsoluteWrapper>
+      {total > 0 ? <CartFilled /> : <CartEmpty />}
+    </AbsoluteWrapper>
+  );
 };
 
 const mapStateToProps = (state) => ({

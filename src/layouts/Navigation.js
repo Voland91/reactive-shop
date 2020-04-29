@@ -13,12 +13,6 @@ const menuItems = [
 ];
 
 const Navigation = (props) => {
-  // console.log(props);
-
-  // useEffect(() => {
-  //   getNumbers();
-  // }, []);
-
   const menu = menuItems.map((item) => (
     <li key={item.name} className={item.class}>
       <NavLink to={item.path} exact={item.exact ? item.exact : null}>
