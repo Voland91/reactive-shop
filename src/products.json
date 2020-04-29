@@ -8,7 +8,13 @@
     "category": "desktop",
     "featured": true,
     "inCart": false,
-    "numbers": 0
+    "numbers": 0,
+    "weight": "9,42kg",
+    "dimensions": {
+      "Height": "51,6 cm",
+      "Width": "65,0 cm",
+      "Depth": "20,3 cm"
+    }
   },
   {
     "id": "5c5e94eddb3b43421561cd1a",
@@ -19,7 +25,13 @@
     "category": "desktop",
     "featured": false,
     "inCart": false,
-    "numbers": 0
+    "numbers": 0,
+    "weight": "9.56kg",
+    "dimensions": {
+      "Height": "51,6 cm",
+      "Width": "65,0 cm",
+      "Depth": "20,3 cm"
+    }
   },
   {
     "id": "5c5e94edd28c711337302817",
@@ -30,7 +42,13 @@
     "category": "desktop",
     "featured": true,
     "inCart": false,
-    "numbers": 0
+    "numbers": 0,
+    "weight": "8.22kg",
+    "dimensions": {
+      "Height": "51,6 cm",
+      "Width": "65,0 cm",
+      "Depth": "20,3 cm"
+    }
   },
   {
     "id": "5c5e94ed2b2975200c75d16d",
@@ -41,7 +59,13 @@
     "category": "desktop",
     "featured": true,
     "inCart": false,
-    "numbers": 0
+    "numbers": 0,
+    "weight": "7.20kg",
+    "dimensions": {
+      "Height": "51,6 cm",
+      "Width": "65,0 cm",
+      "Depth": "20,3 cm"
+    }
   },
   {
     "id": "5c5e94ed2a5b84772cafa6a6",
@@ -52,7 +76,13 @@
     "category": "tablet",
     "featured": false,
     "inCart": false,
-    "numbers": 0
+    "numbers": 0,
+    "weight": "0.32kg",
+    "dimensions": {
+      "Height": "25,6 cm",
+      "Width": "15,0 cm",
+      "Depth": "1,3 cm"
+    }
   },
   {
     "id": "5c5e94edd128902db221ebcd",
@@ -63,7 +93,13 @@
     "category": "tablet",
     "featured": false,
     "inCart": false,
-    "numbers": 0
+    "numbers": 0,
+    "weight": "0.46kg",
+    "dimensions": {
+      "Height": "25,6 cm",
+      "Width": "15,0 cm",
+      "Depth": "1,3 cm"
+    }
   },
   {
     "id": "5c5e94edaca115996d9bcf1f",
@@ -74,7 +110,13 @@
     "category": "tablet",
     "featured": true,
     "inCart": false,
-    "numbers": 0
+    "numbers": 0,
+    "weight": "5.4kg",
+    "dimensions": {
+      "Height": "25,6 cm",
+      "Width": "15,0 cm",
+      "Depth": "1,3 cm"
+    }
   },
   {
     "id": "5c5e94eda99dbca4e20d37e7",
@@ -85,7 +127,13 @@
     "category": "tablet",
     "featured": true,
     "inCart": false,
-    "numbers": 0
+    "numbers": 0,
+    "weight": "0.38kg",
+    "dimensions": {
+      "Height": "25,6 cm",
+      "Width": "15,0 cm",
+      "Depth": "1,3 cm"
+    }
   },
   {
     "id": "5c5e94ed1810a470928a294b",
@@ -96,7 +144,13 @@
     "category": "desktop",
     "featured": true,
     "inCart": false,
-    "numbers": 0
+    "numbers": 0,
+    "weight": "4.25kg",
+    "dimensions": {
+      "Height": "51,6 cm",
+      "Width": "65,0 cm",
+      "Depth": "20,3 cm"
+    }
   },
   {
     "id": "5c5e94edb9ca8ca175eea230",
@@ -107,7 +161,13 @@
     "category": "desktop",
     "featured": false,
     "inCart": false,
-    "numbers": 0
+    "numbers": 0,
+    "weight": "7.25kg",
+    "dimensions": {
+      "Height": "51,6 cm",
+      "Width": "65,0 cm",
+      "Depth": "20,3 cm"
+    }
   },
   {
     "id": "5c5e94edc60727170b4fd86a",
@@ -118,7 +178,13 @@
     "category": "desktop",
     "featured": false,
     "inCart": false,
-    "numbers": 0
+    "numbers": 0,
+    "weight": "5.15kg",
+    "dimensions": {
+      "Height": "51,6 cm",
+      "Width": "65,0 cm",
+      "Depth": "20,3 cm"
+    }
   },
   {
     "id": "5c5e94eda6a3d1cb9a0d5f58",
@@ -129,7 +195,13 @@
     "category": "desktop",
     "featured": false,
     "inCart": false,
-    "numbers": 0
+    "numbers": 0,
+    "weight": "8.13kg",
+    "dimensions": {
+      "Height": "51,6 cm",
+      "Width": "65,0 cm",
+      "Depth": "20,3 cm"
+    }
   },
   {
     "id": "5c5e94ed6c057f83f991a1e0",
@@ -140,7 +212,13 @@
     "category": "desktop",
     "featured": false,
     "inCart": false,
-    "numbers": 0
+    "numbers": 0,
+    "weight": "6.53kg",
+    "dimensions": {
+      "Height": "51,6 cm",
+      "Width": "65,0 cm",
+      "Depth": "20,3 cm"
+    }
   },
   {
     "id": "5c5e94eda3068277e72e1eba",
@@ -151,7 +229,13 @@
     "category": "tablet",
     "featured": true,
     "inCart": false,
-    "numbers": 0
+    "numbers": 0,
+    "weight": "0.53kg",
+    "dimensions": {
+      "Height": "25,6 cm",
+      "Width": "15,0 cm",
+      "Depth": "1,3 cm"
+    }
   },
   {
     "id": "5c5e94ed65021259bed07a6a",
@@ -162,7 +246,13 @@
     "category": "tablet",
     "featured": true,
     "inCart": false,
-    "numbers": 0
+    "numbers": 0,
+    "weight": "1.21kg",
+    "dimensions": {
+      "Height": "25,6 cm",
+      "Width": "15,0 cm",
+      "Depth": "1,3 cm"
+    }
   },
   {
     "id": "5c5e94ed939720ae8f3a7af5",
@@ -173,6 +263,12 @@
     "category": "desktop",
     "featured": false,
     "inCart": false,
-    "numbers": 0
+    "numbers": 0,
+    "weight": "7.53kg",
+    "dimensions": {
+      "Height": "51,6 cm",
+      "Width": "65,0 cm",
+      "Depth": "20,3 cm"
+    }
   }
 ]
