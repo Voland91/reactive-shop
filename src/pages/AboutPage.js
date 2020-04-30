@@ -1,10 +1,10 @@
 import React from "react";
 import "../styles/AboutPage.scss";
-import AbsoluteWrapper from "../components/AbsoluteWrapper";
+// import AbsoluteWrapper from "../components/AbsoluteWrapper";
 
 const AboutPage = () => {
   return (
-    <AbsoluteWrapper>
+    <>
       <div className="AboutPage container">
         <h1 className="header-big">About</h1>
         <p>
@@ -31,7 +31,7 @@ const AboutPage = () => {
           pharetra lectus molestie, posuere lectus eget, tempor justo.
         </p>
       </div>
-    </AbsoluteWrapper>
+    </>
   );
 };
 

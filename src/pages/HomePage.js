@@ -2,7 +2,7 @@ import React from "react";
 import ItemsService from "../services/ItemsService";
 import Product from "../components/Product";
 import styled from "styled-components";
-import AbsoluteWrapper from "../components/AbsoluteWrapper";
+// import AbsoluteWrapper from "../components/AbsoluteWrapper";
 
 const desktops = ItemsService.getFeatured("desktop");
 const tablets = ItemsService.getFeatured("tablet");
@@ -43,7 +43,7 @@ const featuredTablets = tablets.map((product) => (
 
 const HomePage = () => {
   return (
-    <AbsoluteWrapper>
+    <>
       <div className="container">
         <h1 className="header-big">
           Welcome to our <TextInt>(reactive)</TextInt> store
@@ -54,7 +54,7 @@ const HomePage = () => {
         <Featured>Tablets</Featured>
         <Products>{featuredTablets}</Products>
       </div>
-    </AbsoluteWrapper>
+    </>
   );
 };
 

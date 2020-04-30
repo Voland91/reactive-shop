@@ -3,7 +3,7 @@ import { Loader } from "../components/Loader";
 import { Container, Header, Paragraph, Checkmark } from "../styles/OrderPage";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
-import AbsoluteWrapper from "../components/AbsoluteWrapper";
+// import AbsoluteWrapper from "../components/AbsoluteWrapper";
 
 class OrderPage extends Component {
   state = {
@@ -22,7 +22,7 @@ class OrderPage extends Component {
     const { loading } = this.state;
 
     return (
-      <AbsoluteWrapper>
+      <>
         <Container>
           <Header>Thank you for buying in our store!</Header>
           {loading ? (
@@ -42,7 +42,7 @@ class OrderPage extends Component {
             </div>
           )}
         </Container>
-      </AbsoluteWrapper>
+      </>
     );
   }
 }

@@ -3,7 +3,7 @@ import "../styles/CatalogPage.scss";
 import ItemsServie from "../services/ItemsService";
 import Product from "../components/Product";
 import Filter from "../components/Filter";
-import AbsoluteWrapper from "../components/AbsoluteWrapper";
+// import AbsoluteWrapper from "../components/AbsoluteWrapper";
 
 const products = ItemsServie.getProducts();
 
@@ -64,7 +64,7 @@ class CatalogPage extends Component {
 
   render() {
     return (
-      <AbsoluteWrapper>
+      <>
         <div className="container">
           <h2 className="header-big">Catalog</h2>
 
@@ -83,7 +83,7 @@ class CatalogPage extends Component {
             </div>
           </div>
         </div>
-      </AbsoluteWrapper>
+      </>
     );
   }
 }

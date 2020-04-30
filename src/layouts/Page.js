@@ -10,6 +10,8 @@ import CartPage from "../pages/CartPage";
 import OrderPage from "../pages/OrderPage";
 import ProductPage from "../pages/ProductPage";
 
+import "../styles/Page.scss";
+
 const Page = () => {
   const { location } = useContext(__RouterContext);
   const transitions = useTransition(location, (location) => location.pathname, {
@@ -19,7 +21,7 @@ const Page = () => {
   });
 
   return (
-    <>
+    <div className="Page">
       {transitions.map(({ item, props, key }) => (
         <animated.div key={key} style={props}>
           <Switch location={item}>
@@ -36,7 +38,7 @@ const Page = () => {
           </Switch>
         </animated.div>
       ))}
-    </>
+    </div>
   );
 };
 
